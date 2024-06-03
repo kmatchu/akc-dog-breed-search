@@ -1,0 +1,47 @@
+-Dog Trainer user story-:
+As a future dog trainer, I want to research dog breeds and some relevant information about them so that I can learn more about breeds as I study for my upcoming breed test.
+Functional Requirement: Given the user clicks on Show All Breeds, when the app servers are running and connected to the database, then the user should see all breeds currently in the database and their relvant information.
+
+-Dog Buyer (apartment) user story-:
+As an aparment renter, I want to find a dog breed that has an average level of energy, about a 6/10, so that I buy an appropriate dog for my living situation.
+Functional requirement: Given the user the user clicks on Filter by energy 6/10, when there is a breed in the database that matches that energy level, then the user should see the breeds that match that level of energy.
+
+-Tinkerer user story-:
+As an amateur coder, I want to be able to explore the application and tinker with it while never crashing it so that I can learn how the program functions.
+Functional Requirement: Given the user tries edge cases, when the app servers are running, then the app should work for all available functionalities and/or catch and report errors if needed.
+
+IH#1: Explain Benefits
+Header: Buying a dog is a lifetime commitment - our App will help you find the best possible companion!
+
+IH#2: Explain Costs
+Filter: longest load warning
+
+IH#3: Information a lot/ a little as desired
+Filter screen shows less dogs than "all"
+
+IH#4: Familiar features remain
+Header buttons remain consistent
+
+IH#5: Undo/Backtracking available
+There are only two states, can always alternate back to the other with header
+
+IH#6: Provide an explicit path through task
+Show all: Start here!!
+
+IH#7: Accomodate different approaches
+Clicking on "Research" will also show all breeds
+
+IH#8: Encourages mindful tinkering
+Alert when clicking on "Research"
+
+QA#1: Simplicity
+Non-functional criterion: The site should have under 10 items that can be clicked on at a time
+There is only 3 buttons on the app and two of them do essentially the same thing. We only show a max of 5 dogs at a time right now. Many dog-people are not tech-savy and appreciate an easy app. 
+
+QA#2: Scalability
+Non-functional criterion: Connect to a database where additional data can be uploaded.
+The application is functioning using the MVC model, react and connected to a mongodb database. We can very easily add more data to our database using http post or other uploads.
+
+QA#3: Affordability
+Non-functional criterion: Users are not charged money.
+Our website is free. Besides money, we also avoid other costs, such as privacy. At the moment we ask for no private information and our loading times are minimal as well.

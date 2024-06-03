@@ -1,0 +1,69 @@
+### Breed 1
+POST http://localhost:3000/breeds HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Affenpinscher",
+    "temperament": "Confident, Famously Funny, Fearless",
+    "weight": 3.85,
+    "grooming": 0.6,
+    "energy": 0.6,
+    "trainability": 0.8,
+    "demeaner": 1.0 
+}
+
+### Breed 2
+POST http://localhost:3000/breeds HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Afghan Hound",
+    "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+    "weight": 24.94,
+    "grooming": 0.8,
+    "energy": 0.8,
+    "trainability": 0.2,
+    "demeaner": 0.2
+}
+
+### Breed 3
+POST http://localhost:3000/breeds HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Airedale Terrier",
+    "temperament": "Friendly, Clever, Courageous",
+    "weight": 27.21,
+    "grooming": 0.6,
+    "energy": 0.6,
+    "trainability": 1.0,
+    "demeaner": 0.8
+}
+
+### Breed 4
+POST http://localhost:3000/breeds HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Akita",
+    "temperament": "Courageous, Dignified, Profoundly Loyal",
+    "weight": 45.36,
+    "grooming": 0.8,
+    "energy": 0.8,
+    "trainability": 1.0,
+    "demeaner": 0.6
+}
+
+### Breed 5
+POST http://localhost:3000/breeds HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Alaskan Malamute",
+    "temperament": "Affectionate, Loyal, Playful",
+    "weight": 36.28,
+    "grooming": 0.6,
+    "energy": 0.8,
+    "trainability": 0.4,
+    "demeaner": 0.8
+}
